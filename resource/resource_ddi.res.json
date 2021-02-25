@@ -1,0 +1,65 @@
+{
+  "groups":[
+      {
+          "keys":"dotted_png,add_png,note_png,arrow_top_png,top-bar-bg_png,progress-arrow_png,progress-arrow-active_png,scene_review_png,continue_btn_png,topTriangle_png,bottomTriangle_png",
+          "name":"preload_ddi"
+      }
+  ],
+  "resources":[
+    {
+			"name": "dotted_png",
+			"type": "image",
+			"url": "ddi_assets/dotted.png"
+		},
+    {
+      "name":"add_png",
+      "type":"image",
+      "url":"ddi_assets/add.png"
+    },
+    {
+      "name":"note_png",
+      "type":"image",
+      "url":"ddi_assets/note.png"
+    },
+    {
+      "name": "arrow_top_png",
+      "type": "image",
+      "url": "ddi_assets/arrow-top.png"
+    },
+    {
+			"name": "top-bar-bg_png",
+			"type": "image",
+			"url": "ddi_assets/top-bar-bg.png"
+    },
+    {
+			"name": "progress-arrow_png",
+			"type": "image",
+			"url": "ddi_assets/progress-arrow.png"
+    },
+    {
+			"name": "progress-arrow-active_png",
+			"type": "image",
+			"url": "ddi_assets/progress-arrow-active.png"
+    },
+    {
+			"name": "scene_review_png",
+			"type": "image",
+			"url": "ddi_assets/scene_review.png"
+    },
+    {
+      "name": "continue_btn_png",
+      "type": "image",
+      "url": "ddi_assets/continue_btn.png"
+    },
+    {
+			"name": "topTriangle_png",
+			"type": "image",
+			"url": "ddi_assets/topTriangle.png"
+    },
+    {
+			"name": "bottomTriangle_png",
+			"type": "image",
+			"url": "ddi_assets/bottomTriangle.png"
+		}
+  ]
+}

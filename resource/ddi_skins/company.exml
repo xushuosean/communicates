@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  width="560" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="400">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="500" height="500">
+		<e:Group height="291" anchorOffsetY="0" left="0" right="0" bottom="0">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff"/>
+			<e:Label id="contentLabel" text="" y="60" width="400" horizontalCenter="0" textColor="0x000000" lineSpacing="20"/>
+		</e:Group>
+		<e:Group width="200" height="200" horizontalCenter="0" top="50">
+			<e:Image id="circleImg" source="icon_logo" width="200" height="200" y="0" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+			<e:Rect id="circle" left="0" right="0" top="0" bottom="0" ellipseHeight="200" ellipseWidth="200"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

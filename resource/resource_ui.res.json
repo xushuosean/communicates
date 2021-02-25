@@ -1,0 +1,294 @@
+{
+    "groups": [
+        {
+            "keys": "open_png,open_json,loading_json,loading_png,bookShake_json,bookShake_png",
+            "name": "preload_mc_common"
+        },
+        {
+            "keys": "flowerOneTop_png,flowerOneTop_json,break_json,break_png,bloom_json,bloom_png,flowerOneCenter_png,flowerOneCenter_json,flowerOneBottom_png,flowerOneBottom_json,a1_json,a1_png,msg_json,msg_png,eggshell_json,eggshell_png,eggshell1_json,eggshell1_png",
+            "name": "preload_mc_one"
+        },
+        {
+            "keys": "moment2_1_png,moment2_1_json,moment2_2_png,break_json,break_png,bloom_json,bloom_png,moment2_2_json,phoneCall_png,phoneCall_json,flowerTwoTop_png,flowerTwoTop_json,flowerTwoCenter_png,flowerTwoCenter_json,flowerTwoBottom_png,flowerTwoBottom_json,clock2_1_json,clock2_1_png,clock2_2_json,clock2_2_png",
+            "name": "preload_mc_two"
+        },
+        {
+            "keys": "clock3_1_json,clock3_1_png,clock3_2_json,clock3_2_png",
+            "name": "preload_mc_three"
+        },
+        {
+            "keys": "end1-min_png,end2-min_png,end3-min_png,end4-min_png",
+            "name": "do_not_preload"
+        }
+    ],
+    "resources": [
+        {
+            "name": "bookShake_json",
+            "type": "json",
+            "url": "assets/animation/bookShake/bookShake.json"
+        },
+        {
+            "name": "bookShake_png",
+            "type": "image",
+            "url": "assets/animation/bookShake/bookShake.png"
+        },
+        {
+            "name": "break_json",
+            "type": "json",
+            "url": "assets/animation/break/break.json"
+        },
+        {
+            "name": "break_png",
+            "type": "image",
+            "url": "assets/animation/break/break.png"
+        },
+        {
+            "name": "eggshell_json",
+            "type": "json",
+            "url": "assets/animation/eggshell1/eggshell.json"
+        },
+        {
+            "name": "eggshell_png",
+            "type": "image",
+            "url": "assets/animation/eggshell1/eggshell.png"
+        },
+        {
+            "name": "eggshell1_json",
+            "type": "json",
+            "url": "assets/animation/eggshell1/eggshell1.json"
+        },
+        {
+            "name": "eggshell1_png",
+            "type": "image",
+            "url": "assets/animation/eggshell1/eggshell1.png"
+        },
+
+
+        {
+            "name": "loading_json",
+            "type": "json",
+            "url": "assets/animation/loading/loading.json"
+        },
+        {
+            "name": "loading_png",
+            "type": "image",
+            "url": "assets/animation/loading/loading.png"
+        },
+        {
+            "name": "open_png",
+			"type": "image",
+			"url": "assets/animation/open/open.png"
+        },
+        {
+            "name": "open_json",
+			"type": "json",
+			"url": "assets/animation/open/open.json"
+        },
+        {
+            "name": "bloom_json",
+            "type": "json",
+            "url": "assets/animation/bloom/bloom.json"
+        },
+        {
+            "name": "bloom_png",
+            "type": "image",
+            "url": "assets/animation/bloom/bloom.png"
+        },
+        {
+          "name": "a1_json",
+          "type": "json",
+          "url": "assets/animation/before/a1.json"
+        },
+        {
+          "name": "a1_png",
+          "type": "image",
+          "url": "assets/animation/before/a1.png"
+        },
+        {
+          "name": "msg_json",
+          "type": "json",
+          "url": "assets/animation/message/msg.json"
+        },
+        {
+          "name": "msg_png",
+          "type": "image",
+          "url": "assets/animation/message/msg.png"
+        },
+        {
+            "name": "clock3_1_json",
+            "type": "json",
+            "url": "assets/animation/clock3/clock3_1.json"
+        },
+        {
+            "name": "clock3_1_png",
+            "type": "image",
+            "url": "assets/animation/clock3/clock3_1.png"
+        },
+        {
+            "name": "clock3_2_json",
+            "type": "json",
+            "url": "assets/animation/clock3/clock3_2.json"
+        },
+        {
+            "name": "clock3_2_png",
+            "type": "image",
+            "url": "assets/animation/clock3/clock3_2.png"
+        },
+        {
+            "name": "clock2_1_json",
+            "type": "json",
+            "url": "assets/animation/clock2/clock-1.json"
+        },
+        {
+            "name": "clock2_1_png",
+            "type": "image",
+            "url": "assets/animation/clock2/clock-1.png"
+        },
+        {
+            "name": "clock2_2_json",
+            "type": "json",
+            "url": "assets/animation/clock2/clock-2.json"
+        },
+        {
+            "name": "clock2_2_png",
+            "type": "image",
+            "url": "assets/animation/clock2/clock-2.png"
+        },
+        {
+            "name": "flowerOneTop_png",
+			"type": "image",
+			"url": "assets/animation/flower/one/flowerOneTop.png"
+        },
+        {
+            "name": "flowerOneTop_json",
+			"type": "json",
+			"url": "assets/animation/flower/one/flowerOneTop.json"
+        },
+        {
+            "name": "flowerOneCenter_png",
+			"type": "image",
+			"url": "assets/animation/flower/one/flowerOneCenter.png"
+        },
+        {
+            "name": "flowerOneCenter_json",
+			"type": "json",
+			"url": "assets/animation/flower/one/flowerOneCenter.json"
+        },
+        {
+            "name": "flowerOneBottom_png",
+			"type": "image",
+			"url": "assets/animation/flower/one/flowerOneBottom.png"
+        },
+        {
+            "name": "flowerOneBottom_json",
+			"type": "json",
+			"url": "assets/animation/flower/one/flowerOneBottom.json"
+        },
+
+        {
+            "name": "flowerTwoTop_png",
+			"type": "image",
+			"url": "assets/animation/flower/two/flowerTwoTop.png"
+        },
+        {
+            "name": "flowerTwoTop_json",
+			"type": "json",
+			"url": "assets/animation/flower/two/flowerTwoTop.json"
+        },
+        {
+            "name": "flowerTwoCenter_png",
+			"type": "image",
+			"url": "assets/animation/flower/two/flowerTwoCenter.png"
+        },
+        {
+            "name": "flowerTwoCenter_json",
+			"type": "json",
+			"url": "assets/animation/flower/two/flowerTwoCenter.json"
+        },
+        {
+            "name": "flowerTwoBottom_png",
+			"type": "image",
+			"url": "assets/animation/flower/two/flowerTwoBottom.png"
+        },
+        {
+            "name": "flowerTwoBottom_json",
+			"type": "json",
+			"url": "assets/animation/flower/two/flowerTwoBottom.json"
+        },
+
+        {
+            "name": "flowerThreeTop_png",
+			"type": "image",
+			"url": "assets/animation/flower/three/flowerThreeTop.png"
+        },
+        {
+            "name": "flowerThreeTop_json",
+			"type": "json",
+			"url": "assets/animation/flower/three/flowerThreeTop.json"
+        },
+        {
+            "name": "flowerThreeCenter_png",
+			"type": "image",
+			"url": "assets/animation/flower/three/flowerThreeCenter.png"
+        },
+        {
+            "name": "flowerThreeCenter_json",
+			"type": "json",
+			"url": "assets/animation/flower/three/flowerThreeCenter.json"
+        },
+        {
+            "name": "flowerThreeBottom_png",
+			"type": "image",
+			"url": "assets/animation/flower/three/flowerThreeBottom.png"
+        },
+        {
+            "name": "flowerThreeBottom_json",
+			"type": "json",
+			"url": "assets/animation/flower/three/flowerThreeBottom.json"
+        },{
+            "name": "phoneCall_json",
+			"type": "json",
+			"url": "assets/animation/phone-call/phone-call.json"
+        },{
+            "name": "phoneCall_png",
+			"type": "image",
+			"url": "assets/animation/phone-call/phone-call.png"
+        },{
+            "name": "moment2_1_png",
+			"type": "image",
+			"url": "assets/animation/moment2/first.png"
+        },{
+            "name": "moment2_1_json",
+			"type": "json",
+			"url": "assets/animation/moment2/first.json"
+        },{
+            "name": "moment2_2_png",
+			"type": "image",
+			"url": "assets/animation/moment2/second.png"
+        },{
+            "name": "moment2_2_json",
+			"type": "json",
+			"url": "assets/animation/moment2/second.json"
+        },
+        {
+			"url": "assets/bg/end1-min.png",
+			"type": "image",
+			"name": "end1-min_png"
+		},
+		{
+			"url": "assets/bg/end2-min.png",
+			"type": "image",
+			"name": "end2-min_png"
+		},
+		{
+			"url": "assets/bg/end3-min.png",
+			"type": "image",
+			"name": "end3-min_png"
+		},
+		{
+			"url": "assets/bg/end4-min.png",
+			"type": "image",
+			"name": "end4-min_png"
+		}
+    ]
+}

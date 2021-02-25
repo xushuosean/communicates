@@ -1,0 +1,25 @@
+{
+    "groups":[
+        {
+            "keys":"language_cn,language_en,language_th",
+            "name":"language_config"
+        }
+    ],
+    "resources":[
+        {
+            "name":"language_cn",
+            "type":"json",
+            "url":"languages/cn.json"
+        },
+        {
+            "name":"language_th",
+            "type":"json",
+            "url":"languages/th.json"
+        },
+        {
+            "name":"language_en",
+            "type":"json",
+            "url":"languages/en.json"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaseSelectSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:DDI="DDI.*">
+	<e:Group width="600" verticalCenter="0" horizontalCenter="0">
+		<e:Rect top="0" bottom="0" left="0" right="0" fillColor="0xffb5b5" fillAlpha="0.6"/>
+		<e:Group id="topGroup" height="100" width="560" x="20">
+			<DDI:BaseButton id="bt" width="20" height="20" x="43" y="11"/>
+			<DDI:BaseButton id="type" width="20" height="20" x="448" y="11"/>
+		</e:Group>
+		<e:Group id="grid" x="20" y="80" width="560" bottom="80" top="80">
+		</e:Group>
+		<e:Group width="600" height="100" bottom="0">
+			<e:Button label="提交" y="50" horizontalCenter="0" x="200" scaleX="1" scaleY="1" skinName="skins.ButtonSkin"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

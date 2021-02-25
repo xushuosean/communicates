@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaseBoardv" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:DDI="DDI.*">
+	<e:Group id="contentGroup" width="580" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="cakebg" source="cakeBg_jpg" left="0" right="0" top="0" bottom="0"/>
+		<e:Label id="ex" text="Label" y="603" left="0" right="0" textColor="0x000000" textAlign="center"/>
+		<e:Image id="cake" source="cake_png" y="69.72" horizontalCenter="0"/>
+		<e:Group id="button" width="200" height="60" horizontalCenter="0" bottom="100">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x645de2" ellipseWidth="60" ellipseHeight="60"/>
+			<e:Label text="我知道了" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

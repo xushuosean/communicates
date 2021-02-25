@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg_group" width="100%" x="0" y="0" anchorOffsetY="0" height="100%">
+		<e:Rect left="0" right="0" bottom="0" top="0" fillAlpha="0.41"/>
+		<e:Group width="500" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="popupGroup" width="500" x="-1" y="0" scaleX="1" scaleY="1" height="420">
+			<e:Rect left="1" right="-1" fillColor="0xffffff" ellipseWidth="10" ellipseHeight="10" top="0" bottom="0"/>
+			<e:Label id="tipLabel" text="确认是否退出？" textColor="0x4a4a4a" fontFamily="SimHei" size="26" y="69" x="172"/>
+			<e:Group id="btnGroup" y="155" horizontalCenter="1.5">
+				<e:Image anchorOffsetX="0" width="284.75" anchorOffsetY="0" height="80" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="button_png"/>
+				<e:Label id="btnTextLabel" text="继续" horizontalCenter="0" size="30" y="22"/>
+			</e:Group>
+			<e:Group y="247" left="0" right="0" height="150">
+				<e:Label id="firstLinkLabel" text="" y="40" size="25" fontFamily="SimHei" horizontalCenter="0" x="200" scaleX="1" scaleY="1" anchorOffsetY="0" height="-69" textColor="0xbd5011"/>
+				<e:Label id="secondLinkLabel" text="" y="106" size="25" fontFamily="SimHei" horizontalCenter="1.5" x="230" scaleX="1" scaleY="1" textColor="0xbd5011"/>
+			</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

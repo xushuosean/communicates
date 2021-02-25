@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaseHomeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image id="backImage" source="BG_png" left="0" right="0" top="0" bottom="0" fillMode="scale"/>
+	</e:Group>
+</e:Skin>

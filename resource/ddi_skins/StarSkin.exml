@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:DDI="DDI.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="contentGroup" width="620" verticalCenter="30" height="950" horizontalCenter="0">
+		<e:Rect id="backRect" left="-4" right="-4" top="-4" bottom="-4" fillColor="0xffffff" ellipseWidth="20" ellipseHeight="20"/>
+		<e:Group id="topGroup" height="38%" width="620" x="0" top="0">
+			<e:Image id="topImg" source="star1-1_png" fillMode="scale" left="0" right="0" top="0" bottom="0"/>
+			<DDI:BaseLabel id="topLabel" width="20" height="20" verticalCenter="0" x="20"/>
+		</e:Group>
+		<e:Group id="centerGroup" height="43%" width="620" x="0" verticalCenter="5">
+			<e:Image id="centerImg" source="star1-2_png" fillMode="scale" left="0" right="0" top="0" bottom="0"/>
+			<DDI:BaseLabel id="centerLabel" width="20" height="20" x="110" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="bottomGroup" height="34.5%" width="620" x="0" bottom="0">
+			<e:Image id="bottomImg" source="star1-3_png" fillMode="scale" left="0" right="0" top="0" bottom="0"/>
+			<DDI:BaseLabel id="bottomLabel" width="20" height="20" x="20" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

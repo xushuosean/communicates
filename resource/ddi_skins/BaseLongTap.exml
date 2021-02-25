@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaseLongTap" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="600">
+	<e:Group id="group" height="30" width="600" horizontalCenter="0">
+		<e:Label id="title" text="title" x="10" y="0" scaleX="1" scaleY="1" size="26"/>
+		<e:Group id="contentGroup" left="0" right="0" top="10" bottom="0"/>
+	</e:Group>
+</e:Skin>

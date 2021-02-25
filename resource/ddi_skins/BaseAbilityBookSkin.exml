@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaseAbilityBookSkin" width="640" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="640" height="800" horizontalCenter="0" verticalCenter="0">
+		<e:Rect id="backRect" fillColor="0xffffff" left="-1" right="1" top="1" bottom="-1" enabled="true"/>
+		<e:Group id="tittleGroup" width="200" height="40" left="42" top="20">
+			<e:Image id="tittleImg" source="icon1_png" x="0" verticalCenter="0"/>
+			<e:Label id="tittleLabel" text="小提示" x="55" textColor="0x645de2" size="24" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="buttonGroup" width="560" height="159" y="85.52" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+		<e:Group id="listGroup" height="458.42" y="297" anchorOffsetY="0" left="0" right="0">
+			<e:Scroller id="textScroller" width="560" top="0" bottom="0" horizontalCenter="0">
+				<e:Group id="textGroup"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Image id="closeIcon" source="closeIcon_png" x="520" y="761"/>
+	</e:Group>
+</e:Skin>

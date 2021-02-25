@@ -1,0 +1,17 @@
+.idea/
+
+# libs/
+
+bin-debug/
+
+.wing/
+
+bin-release/
+
+.DS_Store
+
+node_modules/
+
+# /package.jsonz
+
+# /package-lock.json

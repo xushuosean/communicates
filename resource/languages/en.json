@@ -1,0 +1,22 @@
+{
+    "PartOne": {
+    },
+
+    "PartTwo": {
+    },
+
+    "PartThree": {
+        
+    },
+
+    "Common": {
+        "sceneReview":"场景回顾",
+        "ifExit":"确认是否退出？",
+        "ifDoAgain":"是否确认重做",
+        "saveAndExit":"保存并退出",
+        "continue":"继续",
+        "doAgain":"重做",
+        "cancelDoAgain":"暂不重做",
+        "confirmDoAgain":"确认重做"
+    }
+}

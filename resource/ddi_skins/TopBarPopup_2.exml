@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg_group" width="6100%" x="0" y="0" anchorOffsetY="0" height="100%">
+		<e:Rect left="0" right="0" bottom="0" top="0" fillAlpha="0.4"/>
+		<e:Group width="500" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="popupGroup" width="500" x="0" y="0" scaleX="1" scaleY="1" height="335">
+			<e:Rect left="0" right="0" fillColor="0xFFFFFF" ellipseWidth="10" ellipseHeight="10" top="0" bottom="0"/>
+			<e:Label id="tipLabel" text="" textColor="0x4A4A4A" fontFamily="SimHei" size="26" y="55" horizontalCenter="0"/>
+			<e:Group id="btnGroup" height="80" y="120" horizontalCenter="0.5">
+				<e:Image anchorOffsetX="0" width="284.75" anchorOffsetY="0" height="80" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="button_png"/>
+				<e:Label id="btnTextLabel" text="" horizontalCenter="0" size="30" y="22"/>
+			</e:Group>
+				<e:Group y="219" left="0" right="0" height="80" x="-108" scaleX="1" scaleY="1">
+					<e:Label id="firstLinkLabel" text="" size="25" fontFamily="SimHei" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" textColor="0xbd5011"/>
+				</e:Group>
+
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

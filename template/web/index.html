@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>英跃</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: linear-gradient(#233381, #434B9C);
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+        #iframe-mask p{
+            font-size: .28rem;
+            line-height: 24px;
+        }
+        #iframe-mask .dialog-item{
+            font-size: .28rem;
+            line-height: 24px;
+        }
+        #iframe-mask .interview-dialog{
+            font-size: .28rem;
+            line-height: 24px;
+        }
+        #iframe-mask .interview-firstitem{
+            font-size: .28rem;
+            line-height: 24px;
+        }
+
+        #ability-one-mask{
+            font-size: initial;
+        }
+        .dialog-item + .interview-dialog{
+            margin-top: 13px;
+        }
+        .dialog-item{
+            padding: 0 16px;
+        }
+        #loading {
+            height: 140px;
+            width: 140px;
+            position: relative;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        #loading > p {
+            position: absolute;
+            bottom: 0px;
+            font-size: 15px;
+            color: white;
+        }
+        .interview-dialog > *,.dialog-item,.interview-firstitem{
+            overflow: hidden;
+        }
+        .interview-dialog > * > span:nth-child(2),.interview-firstitem > span:nth-child(2){
+            float: right;
+            width: 78%;
+        }
+        .dialog-item > *:nth-child(2){
+            float: right;
+            width: 78%;
+        }
+
+    </style>
+    <script src="http://wechatfe.github.io/vconsole/lib/vconsole.min.js?v=3.2.0"></script>
+    <script>
+        var git = "2021/2/1 11:52"
+    </script>
+</head>
+
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;display: flex; justify-content: center; align-items: center;" class="egret-player" id="egret-pc"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="fixedWidth"
+         data-frame-rate="60"
+         data-content-width="640"
+         data-content-height="1136"
+         data-multi-fingered="1"
+         data-show-paint-rect="true"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+         <div id="loading" style="display: none;">
+            <img
+            src="./resource/assets/Loading.gif"
+            alt=""
+            width="140px"
+            style= "display: flex; justify-content: center;"
+            >
+            <p>玩命加载中...</p>
+         </div>
+    </div>
+<script>
+    //rem配置
+    document.documentElement.style.fontSize = window.innerWidth/7.5 +'px';
+    //rem配置over
+
+    var loadScript = function (list, callback) {
+        var loaded = 0;
+        var loadNext = function () {
+            loadSingleScript(list[loaded], function () {
+                loaded++;
+                if (loaded >= list.length) {
+                    callback();
+                }
+                else {
+                    loadNext();
+                }
+            })
+        };
+        loadNext();
+    };
+
+    var loadSingleScript = function (src, callback) {
+        var s = document.createElement('script');
+        s.async = false;
+        s.src = src;
+        s.addEventListener('load', function () {
+            s.parentNode.removeChild(s);
+            s.removeEventListener('load', arguments.callee, false);
+            callback();
+        }, false);
+        document.body.appendChild(s);
+    };
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', './manifest.json?v=' + Math.random(), true);
+    xhr.addEventListener("load", function () {
+        var manifest = JSON.parse(xhr.response);
+        var list = manifest.initial.concat(manifest.game);
+        loadScript(list, function () {
+            /**
+             * {
+             * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
+             * "audioType": 0 //Use the audio type, 0: default, 2: web audio, 3: audio
+             * "antialias": //Whether the anti-aliasing is enabled in WebGL mode, true: on, false: off, defaults to false
+             * "calculateCanvasScaleFactor": //a function return canvas scale factor
+             * }
+             **/
+            egret.runEgret({ renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor:function(context) {
+                var backingStore = context.backingStorePixelRatio ||
+                    context.webkitBackingStorePixelRatio ||
+                    context.mozBackingStorePixelRatio ||
+                    context.msBackingStorePixelRatio ||
+                    context.oBackingStorePixelRatio ||
+                    context.backingStorePixelRatio || 1;
+                return (window.devicePixelRatio || 1) / backingStore;
+            }});
+        });
+    });
+    xhr.send(null);
+
+    function isPC () { //是否为PC端
+        var userAgentInfo = navigator.userAgent;
+        var Agents = ["Android", "iPhone",
+                    "SymbianOS", "Windows Phone",
+                    "iPad", "iPod"];
+        var flag = true;
+        for (var v = 0; v < Agents.length; v++) {
+            if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                flag = false;
+                break;
+            }
+        }
+        return flag;
+    }
+    // if (isPC()) {
+    //     console.log('isPC')
+    //     window.location.replace('/pc.html')
+    // }
+</script>
+</body>
+</html>

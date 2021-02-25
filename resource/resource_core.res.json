@@ -1,0 +1,109 @@
+{
+	"groups": [
+		{
+			"keys": "global,simple_config",
+			"name": "preload_core"
+		},
+		{
+			"name": "preload",
+			"keys": "cross1_json,cross1_png,cross2_json,cross2_png,leftWhiteT_png,eggshell1_1_json,eggshell1_1_png,eggshell1_2_json,eggshell1_2_png,eggshell2_1_json,eggshell2_1_png,eggshell2_2_json,eggshell2_2_png,bg2_png,bg3_png,bg4_png,面试者生气-min_png"
+		}
+	],
+	"resources": [
+		{
+			"name": "global",
+			"type": "json",
+			"url": "config/global.json"
+		},
+		{
+			"name": "simple_config",
+			"type": "json",
+			"url": "proto/simple.json"
+		},
+		{
+			"name": "cross1_json",
+			"type": "json",
+			"url": "assets/animation/cross/cross1.json"
+		},
+		{
+			"name": "cross1_png",
+			"type": "image",
+			"url": "assets/animation/cross/cross1.png"
+		},
+		{
+			"name": "cross2_json",
+			"type": "json",
+			"url": "assets/animation/cross/cross2.json"
+		},
+		{
+			"name": "cross2_png",
+			"type": "image",
+			"url": "assets/animation/cross/cross2.png"
+		},
+		{
+			"name": "leftWhiteT_png",
+			"type": "image",
+			"url": "assets/bg/leftWhiteT.png"
+		},
+		{
+			"name": "eggshell1_1_json",
+			"type": "json",
+			"url": "assets/animation/eggshell/1/eggshell1_1.json"
+		},
+		{
+			"name": "eggshell1_1_png",
+			"type": "image",
+			"url": "assets/animation/eggshell/1/eggshell1_1.png"
+		},
+		{
+			"name": "eggshell1_2_json",
+			"type": "json",
+			"url": "assets/animation/eggshell/1/eggshell1_2.json"
+		},
+		{
+			"name": "eggshell1_2_png",
+			"type": "image",
+			"url": "assets/animation/eggshell/1/eggshell1_2.png"
+		},
+		{
+			"name": "eggshell2_1_json",
+			"type": "json",
+			"url": "assets/animation/eggshell/2/eggshell2_1.json"
+		},
+		{
+			"name": "eggshell2_1_png",
+			"type": "image",
+			"url": "assets/animation/eggshell/2/eggshell2_1.png"
+		},
+		{
+			"name": "eggshell2_2_json",
+			"type": "json",
+			"url": "assets/animation/eggshell/2/eggshell2_2.json"
+		},
+		{
+			"name": "eggshell2_2_png",
+			"type": "image",
+			"url": "assets/animation/eggshell/2/eggshell2_2.png"
+		},
+		{
+			"name": "bg2_png",
+			"type": "image",
+			"url": "assets/bg/bg2-min.png"
+		},
+		{
+			"name": "bg3_png",
+			"type": "image",
+			"url": "assets/bg/bg3-min.png"
+		},
+		{
+			"name": "bg4_png",
+			"type": "image",
+			"url": "assets/bg/bg4-min.png"
+		},
+		{
+			"name": "面试者生气-min_png",
+			"type": "image",
+			"url": "assets/bg/person/面试者生气-min.png"
+		}
+	]
+}

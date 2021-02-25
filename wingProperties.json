@@ -1,0 +1,27 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/resource_core.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/default.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/resource_core.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/resource_ddi.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/resource_ui.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/default.thm.json"
+}

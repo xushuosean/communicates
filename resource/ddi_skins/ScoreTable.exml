@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="610" height="1000" horizontalCenter="0" y="130">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xf1eadd" ellipseWidth="10" ellipseHeight="10"/>
+		<e:Label id="title_label" text="" y="87" textColor="0x4a4a4a" fontFamily="SimHei" bold="true" size="50" border="false" horizontalCenter="0.5"/>
+		<e:Group width="590" y="214" anchorOffsetY="0" horizontalCenter="1">
+			<e:Group id="header" height="70" left="0" top="0" width="100%">
+				<e:Rect left="0" top="0" fillColor="0xe1ddfb" strokeAlpha="0" width="100%" height="100%" anchorOffsetY="0"/>
+				<e:Group id="header_layout" width="100%" height="100%">
+					<e:Group id="header_cell_1" width="26%" anchorOffsetX="0" anchorOffsetY="0" top="0" height="100%" y="0" scaleX="1" scaleY="1">
+					</e:Group>
+					<e:Group id="header_cell_2" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+						<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+						<e:Label id="header_c2_label" text="" textColor="0x4a4a4a" size="21" fontFamily="SimHei" horizontalCenter="0" verticalCenter="0" bold="true"/>
+						<e:layout>
+							<e:BasicLayout/>
+						</e:layout>
+					</e:Group>
+					<e:Group id="header_cell_3" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+						<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+						<e:Label id="header_c3_label" text="" textColor="0x4A4A4A" size="21" fontFamily="Microsoft JhengHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+						<e:layout>
+							<e:BasicLayout/>
+						</e:layout>
+
+					</e:Group>
+					<e:Group id="header_cell_4" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+						<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+						<e:Label id="header_c4_label" text="" textColor="0x4A4A4A" size="21" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+						<e:layout>
+							<e:BasicLayout/>
+						</e:layout>
+
+					</e:Group>
+					<e:Group id="header_cell_5" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+						<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+						<e:Label id="header_c5_label" text="" textColor="0x4A4A4A" size="21" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+						<e:layout>
+							<e:BasicLayout/>
+						</e:layout>
+
+					</e:Group>
+					<e:layout>
+						<e:HorizontalLayout gap="0" horizontalAlign="left"/>
+					</e:layout>
+				</e:Group>
+
+
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Group id="row_1" width="100%" height="70" x="78" y="91">
+				<e:Rect left="0" strokeAlpha="0" width="100%" height="100%" x="0" scaleX="1" scaleY="1" fillColor="0xf8f4ee"/>
+				<e:Group id="row_1_layout" width="100%" height="100%">
+					<e:Group id="header_cell_0" width="26%" anchorOffsetX="0" anchorOffsetY="0" top="0" height="100%" y="0" scaleX="1" scaleY="1">
+						<e:Label id="row1_c1_label" text="" verticalCenter="0" size="22" textColor="0x4a4a4a" fontFamily="SimHei" bold="true" x="14"/>
+					</e:Group>
+					<e:Group id="header_cell_6" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" left="0" fillColor="0xe1ddfb"/>
+					<e:Label id="service_first_label" text="" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+						<e:BasicLayout/>
+					</e:layout>
+					</e:Group>
+					<e:Group id="header_cell_7" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" left="0" fillColor="0xe1ddfb"/>
+					<e:Label id="row1_c3_label" text="X" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+						<e:BasicLayout/>
+					</e:layout>
+					</e:Group>
+					<e:Group id="header_cell_8" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" left="0" fillColor="0xe1ddfb"/>
+					<e:Label id="row1_c4_label" text="3" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+						<e:BasicLayout/>
+					</e:layout>
+					</e:Group>
+					<e:Group id="header_cell_9" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label id="common_view1_label" text="" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+						<e:BasicLayout/>
+					</e:layout>
+					</e:Group>
+					<e:layout>
+					<e:HorizontalLayout gap="0" horizontalAlign="left"/>
+					</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:Group id="row_2" width="100%" height="70" x="88" y="101">
+				<e:Rect left="0" strokeAlpha="0" width="100%" height="100%" x="0" scaleX="1" scaleY="1" fillColor="0xece6ef"/>
+				<e:Group id="row_1_layout0" width="100%" height="100%">
+				<e:Group id="header_cell_10" width="26%" anchorOffsetX="0" anchorOffsetY="0" top="0" height="100%" y="0" scaleX="1" scaleY="1">
+					<e:Label id="row2_c1_label" text="" verticalCenter="0" size="22" textColor="0x4A4A4A" fontFamily="SimHei" bold="true" x="14"/>
+				</e:Group>
+				<e:Group id="header_cell_11" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label id="row2_c2_label" text="X" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_12" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label id="row2_c3_label" text="2I" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_13" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label id="row2_c4_label" text="3" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_14" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label id="common_view2_label" text="" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:HorizontalLayout gap="0" horizontalAlign="left"/>
+				</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:Group id="row_3" width="100%" height="70" x="88" y="101">
+				<e:Rect left="0" strokeAlpha="0" width="100%" height="100%" x="0" scaleX="1" scaleY="1" fillColor="0xF8F4EE"/>
+				<e:Group id="row_1_layout1" width="100%" height="100%">
+				<e:Group id="header_cell_15" width="26%" anchorOffsetX="0" anchorOffsetY="0" top="0" height="100%" y="0" scaleX="1" scaleY="1">
+					<e:Label id="row3_c1_label" text="" verticalCenter="0" size="22" textColor="0x4A4A4A" fontFamily="SimHei" bold="true" x="14"/>
+				</e:Group>
+				<e:Group id="header_cell_16" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label id="row3_c2_label" text="X" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_17" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label id="row3_c3_label" text="X" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_18" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label text="3" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_19" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label id="common_view3_label" text="" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:HorizontalLayout gap="0" horizontalAlign="left"/>
+				</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:Group id="row_4" width="100%" height="70" x="98" y="111">
+				<e:Rect left="0" strokeAlpha="0" width="100%" height="100%" x="0" scaleX="1" scaleY="1" fillColor="0xECE6EF"/>
+				<e:Group id="row_1_layout2" width="100%" height="100%">
+				<e:Group id="header_cell_20" width="26%" anchorOffsetX="0" anchorOffsetY="0" top="0" height="100%" y="0" scaleX="1" scaleY="1">
+					<e:Label id="row4_c1_label" text="" verticalCenter="0" size="22" textColor="0x4A4A4A" fontFamily="SimHei" bold="true" x="14"/>
+				</e:Group>
+				<e:Group id="header_cell_21" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label text="X" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_22" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label text="4" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_23" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label text="X" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_24" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label id="common_view4_label" text="" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:HorizontalLayout gap="0" horizontalAlign="left"/>
+				</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:Group id="row_5" width="100%" height="70" x="98" y="111">
+				<e:Rect left="0" strokeAlpha="0" width="100%" height="100%" x="0" scaleX="1" scaleY="1" fillColor="0xF8F4EE"/>
+				<e:Group id="row_1_layout3" width="100%" height="100%">
+				<e:Group id="header_cell_25" width="26%" anchorOffsetX="0" anchorOffsetY="0" top="0" height="100%" y="0" scaleX="1" scaleY="1">
+					<e:Label id="row5_c1_label" text="" verticalCenter="0" size="22" textColor="0x4A4A4A" fontFamily="SimHei" bold="true" x="14"/>
+				</e:Group>
+				<e:Group id="header_cell_26" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label text="X" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_27" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label text="4" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_28" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label text="X" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_29" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label id="common_view5_label" text="" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:HorizontalLayout gap="0" horizontalAlign="left"/>
+				</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:Group id="row_6" width="100%" height="70" x="108" y="121">
+				<e:Rect left="0" strokeAlpha="0" width="100%" height="100%" x="0" scaleX="1" scaleY="1" fillColor="0xECE6EF"/>
+				<e:Group id="row_1_layout4" width="100%" height="100%">
+				<e:Group id="header_cell_30" width="26%" anchorOffsetX="0" anchorOffsetY="0" top="0" height="100%" y="0" scaleX="1" scaleY="1">
+					<e:Label id="row6_c1_label" text="" verticalCenter="0" size="22" textColor="0x4A4A4A" fontFamily="SimHei" bold="true" x="14"/>
+				</e:Group>
+				<e:Group id="header_cell_31" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label text="3" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_32" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label text="3" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_33" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label text="X" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_34" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label id="common_view6_label" text="" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:HorizontalLayout gap="0" horizontalAlign="left"/>
+				</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:Group id="row_7" width="100%" height="70" x="108" y="121">
+				<e:Rect left="0" strokeAlpha="0" width="100%" height="100%" x="0" scaleX="1" scaleY="1" fillColor="0xF8F4EE"/>
+				<e:Group id="row_1_layout5" width="100%" height="100%">
+				<e:Group id="header_cell_35" width="26%" anchorOffsetX="0" anchorOffsetY="0" top="0" height="100%" y="0" scaleX="1" scaleY="1">
+					<e:Label id="row7_c1_label" text="" verticalCenter="0" size="22" textColor="0x4A4A4A" fontFamily="SimHei" bold="true" x="14"/>
+				</e:Group>
+				<e:Group id="header_cell_36" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label id="action_match_label" text="" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_37" width="17%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label text="4" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_38" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label text="4" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="header_cell_39" width="20%" anchorOffsetX="0" anchorOffsetY="0" top="0" y="0" scaleX="1" scaleY="1" height="100%">
+					<e:Rect width="1" top="0" bottom="0" strokeAlpha="0" fillColor="0xE1DDFB" left="0"/>
+					<e:Label id="common_view7_label" text="" textColor="0x4A4A4A" size="22" fontFamily="SimHei" bold="true" horizontalCenter="0" verticalCenter="0"/>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:HorizontalLayout gap="0" horizontalAlign="left"/>
+				</e:layout>
+				</e:Group>
+			</e:Group>
+
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="bottom_btn" height="60" y="851" anchorOffsetX="0" width="230" anchorOffsetY="0" horizontalCenter="0">
+			<e:Rect id="left_radius" width="60" fillColor="0x7877e8" height="60" ellipseWidth="50" ellipseHeight="50" left="0" verticalCenter="0"/>
+			<e:Rect fillColor="0x7877e8" ellipseHeight="0" ellipseWidth="0" scaleX="1" scaleY="1" anchorOffsetX="0" width="170" verticalCenter="0" height="60" horizontalCenter="0"/>
+			<e:Rect width="60" id="right_radius" fillColor="0x7877E8" height="60" ellipseWidth="50" ellipseHeight="50" verticalCenter="0" right="0"/>
+			<e:Label id="bottom_btn_label" text="我知道了" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft JhengHei" size="26"/>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

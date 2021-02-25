@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="contentGroup" width="400" top="20" horizontalCenter="0">
+		<e:Rect id="backRect" right="0" top="0" bottom="0" fillColor="0x5389d5" left="0" ellipseHeight="40" ellipseWidth="40"/>
+		<e:Label id="label" text="文字" left="20" right="20" top="30" bottom="20"/>
+		<e:Image id="arrow" source="arrow-top_png" x="350" y="-19"/>
+		<e:Group id="nameGroup" x="30" y="-20" scaleX="1" scaleY="1">
+			<e:Rect id="backRectName" fillColor="0x6080e0" left="0" right="0" top="0" bottom="0" ellipseWidth="5" ellipseHeight="5"/>
+			<e:Label id="nameLabel" text="Label" left="5" right="5" top="5" bottom="5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>
