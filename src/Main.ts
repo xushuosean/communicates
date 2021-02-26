@@ -183,9 +183,10 @@ class Main extends egret.DisplayObjectContainer {
      */
     private initScene(): void {
       App.SceneManager.register(SceneConsts.LOADING, new LoadingScene());
-      App.SceneManager.register(SceneConsts.PartOne, new PartOneScene());
-      App.SceneManager.register(SceneConsts.PartTwo, new PartTwoScene());
-      App.SceneManager.register(SceneConsts.PartThree, new PartThreeScene());
+      // App.SceneManager.register(SceneConsts.PartOne, new PartOneScene());
+      // App.SceneManager.register(SceneConsts.PartTwo, new PartTwoScene());
+      // App.SceneManager.register(SceneConsts.PartThree, new PartThreeScene());
+      !!REGISTERSCENE!!
     }
     private startScene() {
       //temp
